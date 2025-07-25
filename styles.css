@@ -1,0 +1,117 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f5e9da;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(90deg, #7b4a19 60%, #a86b32 100%);
+    color: #fff;
+    text-align: center;
+    padding: 2rem 1rem 1rem 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.menu {
+    background: #fff8f0;
+    margin: 2rem auto;
+    max-width: 800px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+    padding: 2rem;
+}
+
+.menu h2 {
+    color: #7b4a19;
+    margin-bottom: 1.5rem;
+}
+
+.menu-items {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+    padding: 1rem;
+    width: 220px;
+    text-align: center;
+    border: 2px solid #a86b32;
+}
+
+.item img {
+    width: 100%;
+    border-radius: 8px;
+    height: 140px;
+    object-fit: cover;
+    margin-bottom: 0.5rem;
+    border: 2px solid #7b4a19;
+}
+
+.item h3 {
+    color: #a86b32;
+    margin: 0.5rem 0 0.2rem 0;
+    font-family: 'Georgia', serif;
+    letter-spacing: 1px;
+}
+
+.precio {
+    display: block;
+    color: #7b4a19;
+    font-weight: bold;
+    margin-top: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.galeria {
+    max-width: 800px;
+    margin: 2rem auto;
+    background: #fff8f0;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+    padding: 2rem;
+}
+
+.galeria h2 {
+    color: #7b4a19;
+    margin-bottom: 1.5rem;
+}
+
+.imagenes {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imagenes img {
+    width: 220px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+    border: 2px solid #7b4a19;
+}
+
+footer {
+    background: #7b4a19;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+footer a {
+    color: #ffe6b3;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
